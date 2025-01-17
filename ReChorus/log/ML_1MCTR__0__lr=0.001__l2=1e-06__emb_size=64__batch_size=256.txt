@@ -1,0 +1,32 @@
+INFO:root:Namespace(model_name='BPRMF', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-16 22:18:31 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | /Users/ASUS/Downl...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cuda
+INFO:root:Reading data from "data/", dataset = "/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus/data/MovieLens_1M/ML_1MCTR" 
+INFO:root:Counting dataset statistics...
+INFO:root:"# user": nan, "# item": nan, "# entry": 0
+INFO:root:"# positive interaction": 0 (nan%)
+INFO:root:Save corpus to /Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus/data/MovieLens_1M/ML_1MCTR\BaseReader.pkl
