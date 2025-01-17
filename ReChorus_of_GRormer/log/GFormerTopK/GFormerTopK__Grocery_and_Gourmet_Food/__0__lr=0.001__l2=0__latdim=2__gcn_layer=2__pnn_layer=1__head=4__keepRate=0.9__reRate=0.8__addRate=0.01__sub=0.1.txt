@@ -1,0 +1,592 @@
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep=',', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=2, eval_batch_size=2, optimizer='Adam', num_workers=5, pin_memory=0, topk='1', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-16 23:35:12 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 2                   
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 2                   
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 1                   
+===========================================
+INFO:root:Device: cuda
+INFO:root:Reading data from "data/", dataset = "Grocery_and_Gourmet_Food/" 
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep=',', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=2, eval_batch_size=2, optimizer='Adam', num_workers=5, pin_memory=0, topk='1', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-16 23:40:02 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 2                   
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 2                   
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 1                   
+===========================================
+INFO:root:Device: cuda
+INFO:root:Reading data from "C:/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus2/data", dataset = "Grocery_and_Gourmet_Food/" 
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep='\t', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=2, eval_batch_size=2, optimizer='Adam', num_workers=5, pin_memory=0, topk='1', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-16 23:43:15 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 2                   
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 2                   
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 1                   
+===========================================
+INFO:root:Device: cuda
+INFO:root:Reading data from "C:/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus2/data", dataset = "Grocery_and_Gourmet_Food/" 
+INFO:root:Counting dataset statistics...
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep='\t', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=2, eval_batch_size=2, optimizer='Adam', num_workers=5, pin_memory=0, topk='1', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-16 23:50:30 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 2                   
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 2                   
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 1                   
+===========================================
+INFO:root:Device: cuda
+INFO:root:Reading data from "C:/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus2/data", dataset = "Grocery_and_Gourmet_Food/" 
+INFO:root:Counting dataset statistics...
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep='\t', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=2, eval_batch_size=2, optimizer='Adam', num_workers=5, pin_memory=0, topk='1', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-16 23:59:21 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 2                   
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 2                   
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 1                   
+===========================================
+INFO:root:Device: cuda
+INFO:root:Reading data from "data/", dataset = "Grocery_and_Gourmet_Food/" 
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep='\t', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=2, eval_batch_size=2, optimizer='Adam', num_workers=5, pin_memory=0, topk='1', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 00:00:24 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 2                   
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 2                   
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 1                   
+===========================================
+INFO:root:Device: cuda
+INFO:root:Reading data from "C:/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus2/data", dataset = "Grocery_and_Gourmet_Food/" 
+INFO:root:Counting dataset statistics...
+INFO:root:"# user": 14681, "# item": 8713, "# entry": 151254
+INFO:root:Save corpus to data/Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep='\t', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=2, eval_batch_size=2, optimizer='Adam', num_workers=5, pin_memory=0, topk='1', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 00:02:10 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 2                   
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 2                   
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 1                   
+===========================================
+INFO:root:Device: cuda
+INFO:root:Reading data from "C:/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus2/data", dataset = "Grocery_and_Gourmet_Food/" 
+INFO:root:Counting dataset statistics...
+INFO:root:"# user": 14681, "# item": 8713, "# entry": 151254
+INFO:root:Save corpus to C:/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus2/data\Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 49977
+INFO:root:GFormer(
+  (gcnLayers): Sequential(
+    (0): GCNLayer()
+    (1): GCNLayer()
+  )
+  (pnnLayers): Sequential(
+    (0): PNNLayer(
+      (linear_out_position): Linear(in_features=32, out_features=1, bias=True)
+      (linear_out): Linear(in_features=32, out_features=32, bias=True)
+      (linear_hidden): Linear(in_features=64, out_features=32, bias=True)
+      (act): ReLU()
+    )
+  )
+  (gcnLayer): GCNLayer()
+  (gtLayers): GTLayer()
+  (bn): BatchNorm1d(2, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+)
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep='\t', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=256, eval_batch_size=256, optimizer='Adam', num_workers=5, pin_memory=0, topk='5,10,20,50', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 00:04:41 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cuda
+INFO:root:Load corpus from C:/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus2/data\Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 49977
+INFO:root:GFormer(
+  (gcnLayers): Sequential(
+    (0): GCNLayer()
+    (1): GCNLayer()
+  )
+  (pnnLayers): Sequential(
+    (0): PNNLayer(
+      (linear_out_position): Linear(in_features=32, out_features=1, bias=True)
+      (linear_out): Linear(in_features=32, out_features=32, bias=True)
+      (linear_hidden): Linear(in_features=64, out_features=32, bias=True)
+      (act): ReLU()
+    )
+  )
+  (gcnLayer): GCNLayer()
+  (gtLayers): GTLayer()
+  (bn): BatchNorm1d(2, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+)
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep='\t', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=256, eval_batch_size=256, optimizer='Adam', num_workers=5, pin_memory=0, topk='5,10,20,50', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 00:16:51 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cuda
+INFO:root:Load corpus from C:/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus2/data\Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 49977
+INFO:root:GFormer(
+  (gcnLayers): Sequential(
+    (0): GCNLayer()
+    (1): GCNLayer()
+  )
+  (pnnLayers): Sequential(
+    (0): PNNLayer(
+      (linear_out_position): Linear(in_features=32, out_features=1, bias=True)
+      (linear_out): Linear(in_features=32, out_features=32, bias=True)
+      (linear_hidden): Linear(in_features=64, out_features=32, bias=True)
+      (act): ReLU()
+    )
+  )
+  (gcnLayer): GCNLayer()
+  (gtLayers): GTLayer()
+  (bn): BatchNorm1d(2, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+)
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep='\t', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=256, eval_batch_size=256, optimizer='Adam', num_workers=5, pin_memory=0, topk='5,10,20,50', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 00:23:13 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cuda
+INFO:root:Load corpus from C:/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus2/data\Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 49977
+INFO:root:GFormer(
+  (gcnLayers): Sequential(
+    (0): GCNLayer()
+    (1): GCNLayer()
+  )
+  (pnnLayers): Sequential(
+    (0): PNNLayer(
+      (linear_out_position): Linear(in_features=32, out_features=1, bias=True)
+      (linear_out): Linear(in_features=32, out_features=32, bias=True)
+      (linear_hidden): Linear(in_features=64, out_features=32, bias=True)
+      (act): ReLU()
+    )
+  )
+  (gcnLayer): GCNLayer()
+  (gtLayers): GTLayer()
+  (bn): BatchNorm1d(2, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+)
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep='\t', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=256, eval_batch_size=256, optimizer='Adam', num_workers=5, pin_memory=0, topk='5,10,20,50', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 00:26:58 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cuda
+INFO:root:Load corpus from C:/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus2/data\Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep='\t', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=256, eval_batch_size=256, optimizer='Adam', num_workers=5, pin_memory=0, topk='5,10,20,50', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 00:28:30 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cuda
+INFO:root:Load corpus from C:/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus2/data\Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:Namespace(model_name='GFormer', model_mode='TopK', gpu='0', verbose=20, log_file='../log/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.txt', random_seed=0, load=0, train=1, save_final_results=1, regenerate=0, path='data/', dataset='Grocery_and_Gourmet_Food/', sep='\t', epoch=200, check_epoch=1, test_epoch=-1, early_stop=10, lr=0.001, l2=0, batch_size=256, eval_batch_size=256, optimizer='Adam', num_workers=5, pin_memory=0, topk='5,10,20,50', metric='NDCG,HR', main_metric='', latdim=2, gcn_layer=2, pnn_layer=1, head=4, keepRate=0.9, keepRate2=0.7, reRate=0.8, addRate=0.01, sub=0.1, num_neg=1, dropout=0, test_all=0, model_path='../model/GFormerTopK/GFormerTopK__Grocery_and_Gourmet_Food/__0__lr=0.001__l2=0__latdim=2__gcn_layer=2__pnn_layer=1__head=4__keepRate=0.9__reRate=0.8__addRate=0.01__sub=0.1.pt', buffer=1, data_appendix='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 00:29:11 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ addRate            | 0.01                
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gcn_layer          | 2                   
+ gpu                | 0                   
+ head               | 4                   
+ keepRate           | 0.9                 
+ keepRate2          | 0.7                 
+ l2                 | 0                   
+ latdim             | 2                   
+ lr                 | 0.001               
+ main_metric        |                     
+ model_mode         | TopK                
+ model_name         | GFormer             
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ pnn_layer          | 1                   
+ random_seed        | 0                   
+ reRate             | 0.8                 
+ save_final_results | 1                   
+ sub                | 0.1                 
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cuda
+INFO:root:Load corpus from C:/Users/ASUS/Downloads/lab_ML/big_homework/ori_ReChorus2/data\Grocery_and_Gourmet_Food/BaseReader.pkl
+INFO:root:#params: 49977
+INFO:root:GFormer(
+  (gcnLayers): Sequential(
+    (0): GCNLayer()
+    (1): GCNLayer()
+  )
+  (pnnLayers): Sequential(
+    (0): PNNLayer(
+      (linear_out_position): Linear(in_features=32, out_features=1, bias=True)
+      (linear_out): Linear(in_features=32, out_features=32, bias=True)
+      (linear_hidden): Linear(in_features=64, out_features=32, bias=True)
+      (act): ReLU()
+    )
+  )
+  (gcnLayer): GCNLayer()
+  (gtLayers): GTLayer()
+  (bn): BatchNorm1d(2, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+)
